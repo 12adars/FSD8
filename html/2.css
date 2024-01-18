@@ -1,0 +1,28 @@
+div{
+    height:300px;
+    width:300px;
+    background-color: blue;
+    animation-name: child;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes child{
+    0%{
+        background-color: blueviolet;
+        height:500px;
+        width:500px;
+    }
+    45%{
+        background-color: brown;
+        height: 450px;
+        width:450px;
+
+    }
+    90%{
+        background-color: black;
+        height: 370dvh;
+        width:370dvh;
+    }
+}

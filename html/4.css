@@ -1,0 +1,19 @@
+.parent{
+    height:800px;
+    width: 80vw;
+   border: 2px solid black;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 300px 300px 300px;
+    
+
+}
+.child{
+    background-color: yellow;
+    border: 2px solid darkblue;
+}
+#one{
+    grid-column-start: 2;
+
+}

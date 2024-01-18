@@ -1,0 +1,22 @@
+
+div{
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+    
+    animation-name:car;
+    animation-duration: infinite;
+    animation-timing-function: ease-in;
+    animation-iteration-count:2px ;
+    animation-direction: alternate-reverse;
+}
+@keyframes car {
+    
+   0%{
+        transform: translateX(0px);
+    }
+    90%{
+        transform: translate(78vh);
+    }
+    
+}

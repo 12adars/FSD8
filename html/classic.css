@@ -1,0 +1,26 @@
+section{
+    background-color: black; 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#jj{
+    color: orangered;
+    font-size: large;
+  
+}
+div{
+    padding: 7px;
+    font-size: large;
+}
+#two{
+    display: flex;
+    gap:4rem;
+    color: white;
+}
+#three{
+    color:white;
+    background-color: orangered;
+    width: 45px;
+    border-radius:25px;
+}
