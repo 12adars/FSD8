@@ -1,3 +1,5 @@
+package memory123;
+
 public class onedec 
 {
     public static void main(String[] args) 

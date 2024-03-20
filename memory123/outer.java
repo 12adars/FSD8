@@ -1,3 +1,5 @@
+package memory123;
+
 public class outer 
 {
     int x;

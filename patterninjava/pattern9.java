@@ -23,7 +23,7 @@ public class pattern9
           
           for(int l=1;l<=(row+1-i);l++)
           {
-            System.out.print("*");
+            System.out.print("");
           }
 
           System.out.println();
